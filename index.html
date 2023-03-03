@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Weather</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400&family=Roboto:ital,wght@0,100;0,300;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- flag icons https://flagicons.lipis.dev/ -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
+    <!-- awesome icons -->
+
+    <!-- end fonts -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="background">
+      
+      <img class="background-img" src="" alt="" />
+      <h2 class="logo">Good <pan class="weather-word">Weather<pan></h2>
+      <div class="translate-container">
+        <button title ="Portugês" class="translate-button active" language="portuguese"><img class="languageIcons" src="https://flagicons.lipis.dev/flags/1x1/br.svg" alt="brasil-icon"></button>
+        
+        <button title = "english" class="translate-button" language="english"><img class="languageIcons" src="https://flagicons.lipis.dev/flags/1x1/um.svg" alt="eua-icon"></button>
+      </div>
+      <div class="card">
+        <div class="search">
+          <input type="info" class="search-bar" placeholder="search" />
+          <button class="location-button">
+            <i id="location-icon" class="fa-sharp fa-solid fa-location-dot"></i>
+          </button>
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="weather animate loading">
+          <h2 class="city info">Weather in</h2>
+          <div class="icon-description-container">
+            <img
+              src="http://openweathermap.org/img/wn/10n.png"
+              alt=""
+              class="icons"
+            />
+            <h1 class="temp">30ºC</h1>
+          </div>
+          <div class="description info">Cloudy</div>
+          <div class="humidity info">Humidity:</div>
+          <div class="wind info">Windspeed:</div>
+        </div>
+        <!-- error img -->
+        <div class="not-found">
+          <img src="./src/img/error404.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- free icons from fontwesome -->
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <footer>
+      <div class="footer">
+        <p class="author info">author:<strong> Iago Pereira</strong></p>
+        <div>
+          <img
+            loading="lazy"
+            src="https://github.com/vandroy77.png"
+            alt="github"
+          />
+          <a href="https://github.com/vandroy77" class="github info" >check my github</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
