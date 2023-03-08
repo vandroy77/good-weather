@@ -9,8 +9,10 @@ utliziando a API OpenWeather, podemos fácilmente requisitar informaçõos clím
  * descrição do clima
  
 
-# Outras Funcionalidades.
+## Outras Funcionalidades.
 
+
+<h3>Encontrar sua Localização</h3>
 Ao decorrer do desenvolvimento implementei um botão que pudesse obter informação climáitca da sua localização atual desde que o usuário possa escolher entre permitir ou negar.Existem diversas formas de fazer essa implementação mas, nesse caso, utilizei uma propriedade do JS chamado <strong>navigator.Geolocation</strong> 
 
 <h3>Unsplash API</h3>
