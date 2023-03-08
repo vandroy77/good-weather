@@ -13,7 +13,7 @@ utliziando a API OpenWeather, podemos fácilmente requisitar informaçõos clím
 
 Ao decorrer do desenvolvimento implementei um botão que pudesse obter informação climáitca da sua localização atual desde que o usuário possa escolher entre permitir ou negar.Existem diversas formas de fazer essa implementação mas, nesse caso, utilizei uma propriedade do JS chamado <strong>navigator.Geolocation</strong> 
 
-<h3>Unsplash</h3>
+<h3>Unsplash API</h3>
 Uma outra API utilizada nessa aplicação é o Unsplash. Toda vez que é feito uma busca, a tela de fundo vai mudar de acordo com o que foi pesquisado. Por exemplo, se caso buscar pela capital da França, a tela de fundo vai mudar para uma foto relacionada a palavra que foi escrita no campo de busca.
 
 
