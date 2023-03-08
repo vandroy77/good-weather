@@ -1,6 +1,6 @@
 # Good Weather
 
-<strong>Good Weather</strong> é um webiste onde voce pode pesquisar informações sobre o clima atual de qualquer lugar do mundo.
+<strong>Good Weather</strong> é um website onde voce pode pesquisar informações sobre o clima atual de qualquer lugar do mundo.
 utliziando a API OpenWeather, podemos fácilmente requisitar informaçõos clímaticas de cidades, municípios capitais e até paises. A página vai apresentar informações como:
 
  * temperatura em grau Celsius
