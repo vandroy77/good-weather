@@ -18,6 +18,6 @@ Ao decorrer do desenvolvimento implementei um botão que permite obter informaç
 <h3>Unsplash API</h3>
 Uma outra API utilizada nessa aplicação é o Unsplash. Toda vez que é feito uma busca, a tela de fundo vai mudar de acordo com o que foi pesquisado. Por exemplo, se caso buscar pela capital da França, a tela de fundo vai mudar para uma foto relacionada a palavra escrita no campo de busca.
 
-<h3>traduções</h3>
+<h3>Traduções</h3>
 Adicionei duas linguagens: português e inglês.
 
