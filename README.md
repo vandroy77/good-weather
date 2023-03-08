@@ -1,10 +1,20 @@
-# good-weather
+# Good Weather.
 
-Good Weather é um webiste onde voce pode pesquisar informações sobre o clima atual de qualquer lugar do mundo.
-utliziando a API OpenWeather, podemos fácilmente requisitar informãos clímaticas como temperatura, velocidade do vento, latitde/longetude, úmidade etc.
+<strong>Good Weather</strong> é um webiste onde voce pode pesquisar informações sobre o clima atual de qualquer lugar do mundo.
+utliziando a API OpenWeather, podemos fácilmente requisitar informaçõos clímaticas de cidades, municípios capitais e até paises. A página vai apresentar informações como:
 
-# outras funções
+ * temperatura em grau Celsius
+ * velocidade do vento (km/h)
+ * úmidade (%)
+ * descrição do clima
+ 
 
-ao decorrer do desenvolvimento, seria legal adicionar um botão que pudesse obter informação climáitca da sua localização atual, desde que o usuário possa escolher entre permitir ou não.Existem diversas formas de fazer essa implementação mas, nesse caso, utilizei uma propriedade do JS chamado [navigator.Geolocation]
-Uma outra API utiliada nessa aplicação é o #Unsplash. Toda vez que é feito uma busca, a tela de fundo vai mudar de acordo com o que foi pesquisado. Por exemplo, se voce buscar por Paris a tela de fundo vai demonstrar uma foto bem próximo a sua pequsisa.
+# Outras Funcionalidades.
 
+Ao decorrer do desenvolvimento implementei um botão que pudesse obter informação climáitca da sua localização atual desde que o usuário possa escolher entre permitir ou negar.Existem diversas formas de fazer essa implementação mas, nesse caso, utilizei uma propriedade do JS chamado <strong>navigator.Geolocation</strong> 
+
+<h3>Unsplash</h3>
+Uma outra API utilizada nessa aplicação é o Unsplash. Toda vez que é feito uma busca, a tela de fundo vai mudar de acordo com o que foi pesquisado. Por exemplo, se caso buscar pela capital da França, a tela de fundo vai mudar para uma foto relacionada a palavra que foi escrita no campo de busca.
+
+
+Assim que eu conseguir hospedar no netlifly vou postar o link para acesso aqui!
